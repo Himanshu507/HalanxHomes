@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingBottom="10dp"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/home_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/Bhk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Bhk"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/boysgirlsfamily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:text="Boys" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Bhk"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Ramesh Nagar, Delhi" />
+
+    <TextView
+        android:id="@+id/Bed_Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boysgirlsfamily"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:text="0 Bed" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/location"
+        android:layout_marginTop="5dp"
+        android:background="#0f0f0f" />
+
+    <TextView
+        android:id="@+id/rentfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Rent From"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/min_rent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rentfrom"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="13dp"
+        android:text="15000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/deposit"
+        android:text="Deposited From"
+        android:textSize="15sp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/max_rent"
+        android:text="30000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/deposit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
